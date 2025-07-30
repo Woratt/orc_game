@@ -1,21 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 project(MySFMLGame)
 
-#enable_language(OBJCXX)
-
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -O3")
-if(WIN32 AND CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-    # Спроба знайти rc.exe вручну
-    if(EXISTS "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.exe")
-        set(CMAKE_RC_COMPILER "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.exe" CACHE FILEPATH "Path to RC compiler" FORCE)
-    else()
-        message(WARNING "rc.exe not found, disabling resource compiler")
-        set(CMAKE_RC_COMPILER_WORKS TRUE)
-    endif()
-endif()
 
-# SFML
 if(SFML_FOUND)
 message(STATUS "Using locale SFML")
 else()
@@ -28,8 +16,6 @@ else()
     FetchContent_MakeAvailable(sfml)
 endif()
 
-
-# Sources
 set(SOURCES
 ${CMAKE_SOURCE_DIR}/src/main.cpp
 ${CMAKE_SOURCE_DIR}/src/Player.cpp
@@ -120,7 +106,6 @@ target_include_directories(game PRIVATE
     ${tinyxml2_SOURCE_DIR}
 )
 
-# ВАЖЛИВО: вручну додати бібліотеки
 target_link_libraries(game
     PRIVATE
     sfml-graphics
