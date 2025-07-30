@@ -1,0 +1,14 @@
+# Target labels
+ flac-populate
+# Source files and their labels
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/CMakeFiles/flac-populate
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/CMakeFiles/flac-populate.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test.rule
+/Users/admin/Downloads/education/orc_game/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update.rule

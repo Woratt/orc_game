@@ -1,0 +1,5 @@
+Kills: 0
+Keys: 0
+MaxKills: 1
+MaxKeys: 0
+IsSave: 0

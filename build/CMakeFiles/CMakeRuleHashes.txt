@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+1e26dec1cc29cfb708a36d9104917f64 CMakeFiles/make_dmg
+0dfacdcc355d5c368af603fb2a506479 Orc_game.dmg
+5150f5f2f95756af38e331b86a7118a0 Orc_gameDir
