@@ -37,10 +37,12 @@ To build the game on macOS, simply run:
 git clone https://github.com/Woratt/orc_game.git
 cd orc_game
 ./build.sh
-
-### Windows
+```
+## Windows
+```bash
 git clone https://github.com/Woratt/orc_game.git
 cd orc_game
 mkdir build && cd build
 cmake ..
 make
+```
