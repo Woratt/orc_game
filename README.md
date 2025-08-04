@@ -1,5 +1,5 @@
 # Orc Game
-![Gameplay Screenshot](image/Gameplay Screenshot)
+![Gameplay Screenshot](image/gameplay_screenshot.png)
 **Orc Game** is a 2D game built using **SFML 3.0.1** and **TinyXML2**.  
 Your goal is to collect as many keys as possible in a single round while avoiding enemies and managing the shrinking circle of light around you.
 
