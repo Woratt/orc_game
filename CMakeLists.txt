@@ -15,6 +15,12 @@ else()
     )
     FetchContent_MakeAvailable(sfml)
 endif()
+FetchContent_Declare(
+        tinyxml2
+        GIT_REPOSITORY https://github.com/leethomason/tinyxml2.git
+        GIT_TAG 9.0.0
+    )
+    FetchContent_MakeAvailable(tinyxml2)
 
 set(SOURCES
 ${CMAKE_SOURCE_DIR}/src/main.cpp
@@ -30,7 +36,6 @@ ${CMAKE_SOURCE_DIR}/src/trap.cpp
 ${CMAKE_SOURCE_DIR}/src/items.cpp
 ${CMAKE_SOURCE_DIR}/src/startGame.cpp
 ${CMAKE_SOURCE_DIR}/src/healthBar.cpp
-${CMAKE_SOURCE_DIR}/tinyxml2/tinyxml2.cpp
 )
 
 if(APPLE)
@@ -113,9 +118,12 @@ target_link_libraries(game
     sfml-system
     sfml-audio
     "-framework Cocoa"
+    tinyxml2
 )
 
 if(SFML_FOUND)
     target_include_directories(game PRIVATE ${SFML_INCLUDE_DIRS})
 endif()
+
+
 
