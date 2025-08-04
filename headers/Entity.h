@@ -13,7 +13,7 @@
 class Entity{
 protected:
     std::vector<TmxObject> obj;
-    float dx = 0, dy = 0, currentFrame = 0, frameSpead = 8.f, spead = 1000.f, x, y, recharging = 0;
+    float dx = 0, dy = 0, currentFrame = 0, frameSpead = 8.f, spead = 10000000.f, x, y, recharging = 0;
     int health = 100;
     int pos = -1;
     bool isLiveli = true, inRound = true;

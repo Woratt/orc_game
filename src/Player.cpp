@@ -62,7 +62,8 @@ void Player::move(float time){
                     dx += 0.f;
                     dy += -spead;
                 }
-            }else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)){
+            }
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)){
                 whatKindOfAnimation = 0;
                 if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Q)){
                     moveView(1, time);
@@ -71,7 +72,8 @@ void Player::move(float time){
                     dx += spead;
                     dy += 0.f;
                 }
-            }else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)){
+            }
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)){
                 whatKindOfAnimation = 0;
                 if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Q)){
                     moveView(2, time);
@@ -80,7 +82,8 @@ void Player::move(float time){
                     dx += 0.f;
                     dy += spead;
                 }
-            }else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)){
+            }
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)){
                 whatKindOfAnimation = 0;
                 if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Q)){
                     moveView(3, time);

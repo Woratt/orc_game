@@ -1,3 +1,0 @@
-/Users/admin/Downloads/education/orc_game/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
-/Users/admin/Downloads/education/orc_game/build/_deps/freetype-subbuild/CMakeFiles/edit_cache.dir
-/Users/admin/Downloads/education/orc_game/build/_deps/freetype-subbuild/CMakeFiles/rebuild_cache.dir
